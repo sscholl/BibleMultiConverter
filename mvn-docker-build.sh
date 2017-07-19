@@ -1,0 +1,1 @@
+docker run -it --rm --name maven-workspace -v `pwd`:/usr/src/mymaven -v m2cache:/root/.m2 -w /usr/src/mymaven maven:latest mvn clean install
